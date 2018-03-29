@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section id="aboutus">
        <v-layout
          column
          wrap
@@ -8,9 +8,9 @@
        >
          <v-flex xs12 sm4 class="my-3">
            <div class="text-xs-center">
-             <h2 class="headline">The best way to start developing</h2>
+             <h2 class="headline">History of Chavez Landscaping</h2>
              <span class="subheading">
-               Cras facilisis mi vitae nunc
+               Established 1983
              </span>
            </div>
          </v-flex>
@@ -20,10 +20,10 @@
                <v-flex xs12 md4>
                  <v-card class="elevation-0 transparent">
                    <v-card-text class="text-xs-center">
-                     <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
+                     <v-icon x-large class="blue--text text--lighten-2">face</v-icon>
                    </v-card-text>
                    <v-card-title primary-title class="layout justify-center">
-                     <div class="headline text-xs-center">Material Design</div>
+                     <div class="headline text-xs-center">Family Owned Business</div>
                    </v-card-title>
                    <v-card-text>
                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -35,10 +35,10 @@
                <v-flex xs12 md4>
                  <v-card class="elevation-0 transparent">
                    <v-card-text class="text-xs-center">
-                     <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
+                     <v-icon x-large class="blue--text text--lighten-2">question_answer</v-icon>
                    </v-card-text>
                    <v-card-title primary-title class="layout justify-center">
-                     <div class="headline">Fast development</div>
+                     <div class="headline">Experienced</div>
                    </v-card-title>
                    <v-card-text>
                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -50,10 +50,10 @@
                <v-flex xs12 md4>
                  <v-card class="elevation-0 transparent">
                    <v-card-text class="text-xs-center">
-                     <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
+                     <v-icon x-large class="blue--text text--lighten-2">message</v-icon>
                    </v-card-text>
                    <v-card-title primary-title class="layout justify-center">
-                     <div class="headline text-xs-center">Completely Open Sourced</div>
+                     <div class="headline text-xs-center">Notifications</div>
                    </v-card-title>
                    <v-card-text>
                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
