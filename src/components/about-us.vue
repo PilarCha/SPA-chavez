@@ -26,9 +26,8 @@
                      <div class="headline text-xs-center">Family Owned Business</div>
                    </v-card-title>
                    <v-card-text>
-                     Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                     Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                     Chavez Landscaping is a 2nd genereation owned business. The founder, <br> Pilar Chavez Hernandez
+                     has owned the business since 1986. He still runs the business and works the yards and work area.
                    </v-card-text>
                  </v-card>
                </v-flex>
@@ -41,9 +40,9 @@
                      <div class="headline">Experienced</div>
                    </v-card-title>
                    <v-card-text>
-                     Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                     Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                     Ever wondered if changing your rose bushes in a shaded area with Agave succulents is the right move?
+                     At Chavez Landscaping we are experienced in such questions. Thinking of going from Succulents to Roses?
+                     We are always open to questions. Of course large project questions are part of a Consultation fee.
                    </v-card-text>
                  </v-card>
                </v-flex>
@@ -56,9 +55,8 @@
                      <div class="headline text-xs-center">Notifications</div>
                    </v-card-title>
                    <v-card-text>
-                     Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                     Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                     If we notice a replacement for a Box Shrub is needed a text is sent for the replacement. We inform you before
+                     making any purchases on your behalf. We understand money is tight and your budget is important to us.
                    </v-card-text>
                  </v-card>
                </v-flex>
