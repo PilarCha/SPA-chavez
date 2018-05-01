@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
   <Navbar></Navbar>
-  <Carousel></Carousel>
+  <!-- <Carousel></Carousel> -->
   <Aboutus></Aboutus>
   </div>
 </template>
