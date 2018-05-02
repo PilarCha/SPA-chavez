@@ -8,7 +8,7 @@
     <b-collapse is-nav id="nav_collapse">
 
       <b-navbar-nav>
-        <b-nav-item href="#">About Us</b-nav-item>
+        <b-nav-item href="#aboutus">About Us</b-nav-item>
         <b-nav-item href="#">Services Provided</b-nav-item>
         <b-nav-item href="#">Service Location</b-nav-item>
         <b-nav-item href="#">Contact Form</b-nav-item>
