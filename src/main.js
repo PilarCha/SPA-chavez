@@ -8,8 +8,22 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
+import VueScrollTo from 'vue-scrollTo'
 
 Vue.config.productionTip = false
+
+Vue.use(VueScrollTo, {
+  container: 'body',
+  duration: 500,
+  easing: 'ease',
+  offset: 0,
+  cancelable: true,
+  onStart: false,
+  onDone: false,
+  onCancel: false,
+  x: false,
+  y: true
+})
 
 Vue.use(Vuetify)
 
