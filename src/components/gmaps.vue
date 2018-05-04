@@ -1,5 +1,6 @@
 <template>
   <v-container grid-list-md text-xs-center>
+    <h1 class="text-xs-center">Center align on all viewport sizes</h1>
     <v-layout
       wrap
       class="my-5"
