@@ -12,7 +12,7 @@
         <b-nav-item href="#">Services Provided</b-nav-item>
         <b-nav-item href="#">Service Location</b-nav-item>
         <b-nav-item href="#">Contact Form</b-nav-item>
-        <b-nav-item href="#">Services Provided</b-nav-item> </b-navbar-nav>
+     </b-navbar-nav>
 
     </b-collapse>
   </b-navbar>

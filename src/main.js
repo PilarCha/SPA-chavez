@@ -9,8 +9,16 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
 import VueScrollTo from 'vue-scrollTo'
+import * as VueGoogleMaps from 'vue2-google-maps'
 
 Vue.config.productionTip = false
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyA31VQppTDlYmANZXU-6B0mubyQuap1WZU',
+    libraries: 'places'
+  }
+})
 
 Vue.use(VueScrollTo, {
   container: 'body',

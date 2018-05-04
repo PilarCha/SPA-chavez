@@ -1,12 +1,12 @@
 <template lang="html">
-  <section>
+  <section id="aboutus">
        <v-layout
          column
          wrap
          class="my-5"
          align-center
        >
-         <v-flex xs12 sm4 class="my-3" id="aboutus">
+         <v-flex xs12 sm4 class="my-3">
            <div class="text-xs-center">
              <h2 class="headline">History of Chavez Landscaping</h2>
              <span class="subheading">
