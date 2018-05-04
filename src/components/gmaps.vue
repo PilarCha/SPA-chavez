@@ -1,30 +1,36 @@
 <template>
-  <div>
-    <div>
-      <h2>Search and add a pin</h2>
-      <label>
-        <gmap-autocomplete
-          @place_changed="setPlace">
-        </gmap-autocomplete>
-        <button @click="addMarker">Add</button>
-      </label>
-      <br/>
-
-    </div>
-    <br>
-    <gmap-map
-      :center="center"
-      :zoom="12"
-      style="width:100%;  height: 400px;"
+  <v-container grid-list-md text-xs-center>
+    <v-layout
+      wrap
+      class="my-5"
+      align-center
     >
-      <gmap-marker
-        :key="index"
-        v-for="(m, index) in markers"
-        :position="m.position"
-        @click="center=m.position"
-      ></gmap-marker>
-    </gmap-map>
-  </div>
+      <v-flex xs12 sm6>
+        <v-card dark color="secondary">
+          <div id="gmaps">
+            <br>
+            <gmap-map
+              :center="center"
+              :zoom="12"
+              style="width:100%;  height: 650px;"
+            >
+              <gmap-marker
+                :key="index"
+                v-for="(m, index) in markers"
+                :position="m.position"
+                @click="center=m.position"
+              ></gmap-marker>
+            </gmap-map>
+          </div>
+        </v-card>
+      </v-flex>
+      <v-flex xs6>
+        <v-card dark color="secondary">
+          <v-card-text class="px-0">6</v-card-text>
+        </v-card>
+      </v-flex>
+     </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -34,7 +40,7 @@ export default {
     return {
       // default to montreal to keep it simple
       // change this to whatever makes sense
-      center: { lat: 34.1808, lng: -118.308968 },
+      center: { lat: 34.1870, lng: -118.3818 },
       markers: [],
       places: [],
       currentPlace: null

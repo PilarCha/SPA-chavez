@@ -10,7 +10,7 @@
       <b-navbar-nav>
         <b-nav-item href="#" v-scroll-to="{ el: '#aboutus'}">About Us</b-nav-item>
         <b-nav-item href="#">Services Provided</b-nav-item>
-        <b-nav-item href="#">Service Location</b-nav-item>
+        <b-nav-item href="#" v-scroll-to="{ el: '#gmaps'}">Service Location</b-nav-item>
         <b-nav-item href="#">Contact Form</b-nav-item>
      </b-navbar-nav>
 
