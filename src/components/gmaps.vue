@@ -30,75 +30,75 @@
 
       <v-flex xs6>
         <v-card dark color="secondary">
-  <div
-    id="e3"
-    style="width: auto; margin: auto; height:650px;"
-    class="grey lighten-3"
-  >
-    <v-card>
-      <v-container
-        fluid
-        style="min-height: 0;"
-        grid-list-lg
-      >
-        <v-layout row wrap>
-          <v-flex xs12>
-            <v-card color="blue-grey darken-2" class="white--text">
-              <v-card-title primary-title>
-                <div class="headline">Unlimited music now</div>
-                <div>Listen to your favorite artists and albums whenever and wherever, online and offline.</div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn flat dark>Listen now</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-          <v-flex xs12>
-            <v-card color="cyan darken-2" class="white--text">
-              <v-container fluid grid-list-lg>
-                <v-layout row>
-                  <v-flex xs7>
-                    <div>
-                      <div class="headline">Supermodel</div>
-                      <div>Foster the People</div>
-                    </div>
+          <div
+            id="e3"
+            style="width: auto; margin: auto; height:650px;"
+            class="grey lighten-3"
+          >
+            <v-card>
+              <v-container
+                fluid
+                style="min-height: 0, height: 650px;"
+                grid-list-lg
+              >
+                <v-layout row wrap>
+                  <v-flex xs12>
+                    <v-card color="blue-grey darken-2" class="white--text">
+                      <v-card-title primary-title>
+                        <div class="headline">Unlimited music now</div>
+                        <div>Listen to your favorite artists and albums whenever and wherever, online and offline.</div>
+                      </v-card-title>
+                      <v-card-actions>
+                        <v-btn flat dark>Listen now</v-btn>
+                      </v-card-actions>
+                    </v-card>
                   </v-flex>
-                  <v-flex xs5>
-                    <v-card-media
-                      src="/static/doc-images/cards/foster.jpg"
-                      height="125px"
-                      contain
-                    ></v-card-media>
+                  <v-flex xs12>
+                    <v-card color="cyan darken-2" class="white--text">
+                      <v-container fluid grid-list-lg>
+                        <v-layout row>
+                          <v-flex xs7>
+                            <div>
+                              <div class="headline">Supermodel</div>
+                              <div>Foster the People</div>
+                            </div>
+                          </v-flex>
+                          <v-flex xs5>
+                            <v-card-media
+                              src="/static/doc-images/cards/foster.jpg"
+                              height="125px"
+                              contain
+                            ></v-card-media>
+                          </v-flex>
+                        </v-layout>
+                      </v-container>
+                    </v-card>
+                  </v-flex>
+                  <v-flex xs12>
+                    <v-card color="purple" class="white--text">
+                      <v-container fluid grid-list-lg>
+                        <v-layout row>
+                          <v-flex xs7>
+                            <div>
+                              <div class="headline">Halycon Days</div>
+                              <div>Ellie Goulding</div>
+                            </div>
+                          </v-flex>
+                          <v-flex xs5>
+                            <v-card-media
+                              src="/static/doc-images/cards/halcyon.png"
+                              height="125px"
+                              contain
+                            ></v-card-media>
+                          </v-flex>
+                        </v-layout>
+                      </v-container>
+                    </v-card>
                   </v-flex>
                 </v-layout>
               </v-container>
             </v-card>
-          </v-flex>
-          <v-flex xs12>
-            <v-card color="purple" class="white--text">
-              <v-container fluid grid-list-lg>
-                <v-layout row>
-                  <v-flex xs7>
-                    <div>
-                      <div class="headline">Halycon Days</div>
-                      <div>Ellie Goulding</div>
-                    </div>
-                  </v-flex>
-                  <v-flex xs5>
-                    <v-card-media
-                      src="/static/doc-images/cards/halcyon.png"
-                      height="125px"
-                      contain
-                    ></v-card-media>
-                  </v-flex>
-                </v-layout>
-              </v-container>
-            </v-card>
-          </v-flex>
-        </v-layout>
-      </v-container>
-    </v-card>
-  </div>
+          </div>
         </v-card>
       </v-flex>
      </v-layout>
@@ -110,18 +110,12 @@ export default {
   name: 'GoogleMap',
   data () {
     return {
-      // default to montreal to keep it simple
-      // change this to whatever makes sense
       center: { lat: 34.1870, lng: -118.3818 },
       markers: [],
       places: [],
       currentPlace: null
     }
   },
-
-  // mounted () {
-  //   this.geolocate()
-  // },
 
   methods: {
     setPlace (place) {
@@ -139,14 +133,6 @@ export default {
         this.currentPlace = null
       }
     }
-    // geolocate: function () {
-    //   navigator.geolocation.getCurrentPosition(position => {
-    //     this.center = {
-    //       lat: position.coords.latitude,
-    //       lng: position.coords.longitude
-    //     }
-    //   })
-    // }
   }
 }
 </script>
