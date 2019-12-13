@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.24",
-    "npm": "^6.9.0",
+    "npm": "^6.13.4",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
     "vue-scrollTo": "^2.4.1",
